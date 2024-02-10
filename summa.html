@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Your Event Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background: url(reg.gif) no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      font-family: 'Cursive Fantasy', cursive;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .logo {
+      max-width: 180px;
+      height: auto;
+      position: absolute;
+      top: 10px;
+    }
+
+    .left-logo {
+      left: 10px;
+    }
+
+    .right-logo {
+      right: 10px;
+    }
+
+    .college-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .main-heading {
+      text-align: center;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      font-family: 'Bold Capital Fantasy', cursive;
+    }
+
+    .main-heading img {
+      width: 30%; /* Adjust the width as needed */
+      height: auto;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto; /* Center the image */
+    }
+
+    .banner {
+      text-align: center;
+      margin: 20px;
+      padding: 80px; /* Increase banner size for more length */
+      border-radius: 10px;
+      cursor: pointer;
+      border: 2px solid #8B4513;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+
+    .banner:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(rgba(255, 255, 255, 0.6), transparent);
+      border-radius: 10px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .banner:hover::before {
+      opacity: 1;
+    }
+
+    .banner h3 {
+      font-family: 'Old Cursive Fantasy', cursive;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header with two logos and college name -->
+  <img src="association_logo-removebg-preview.png" alt="Left Logo" class="logo left-logo">
+  <img src="[removal.ai]_e1d05206-4588-4e4e-a71f-76aacc7568f5-coding_club.png" alt="Right Logo" class="logo right-logo">
+  
+  <div class="college-name">Your College Name</div>
+
+  <!-- Main Heading Image -->
+  <div class="main-heading">
+    <br>
+    <br>
+    <img src="Lets Innovate Final.png" alt="Main Heading Image">
+  </div>
+
+  <!-- Technical Events Banner -->
+  <div class="banner-container">
+    <h2 class="text-center">Technical Events</h2>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="banner" onclick="window.location.href='https://forms.gle/RcdBWkNYnnh4TWSH7'">
+          <h3>Conceptual Carnival</h3>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="banner" onclick="window.location.href='https://forms.gle/wtTFHEJm8ABbv1FV9'">
+          <h3>Legacy Layout</h3>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="banner" onclick="window.location.href='https://forms.gle/N7oxLL5FUnKuZdEK8'">
+          <h3>Eon Encoding</h3>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="banner" onclick="window.location.href='https://forms.gle/8WkjRdnpzK6MjNf88'">
+          <h3>Virtual Vista</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Non-Technical Events Banner -->
+  <div class="banner-container">
+    <h2 class="text-center">Non-Technical Events</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="banner" onclick="window.location.href='https://forms.gle/CqYqesCJdzgFXXrj9'">
+          <h3>Mind Maze</h3>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="banner" onclick="window.location.href='https://forms.gle/7yyjSwfec31wpjhS9'">
+          <h3>Nifty Narrative</h3>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="banner" onclick="window.location.href='https://forms.gle/5EMRduA74HdvJVzL6'">
+          <h3>Promo Fiesta</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Workshop Banner -->
+  <div class="banner-container">
+    <h2 class="text-center">Workshops</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="banner" onclick="window.location.href='https://forms.gle/GBGVo6M4S8SGxZqE7'">
+          <h3>AR/VR Workshop</h3>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="banner" onclick="window.location.href='https://forms.gle/Pj84hPBqzoy79XU4A'">
+          <h3>UI/UX Workshop</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
